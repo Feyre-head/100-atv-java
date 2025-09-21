@@ -11,11 +11,9 @@ public class Atv35 {
         for (int c = 0; c < 3; c++) {
             System.out.println("Informe o " + (1 + c) + " número:");
             numeros[c] = sc.nextInt();
-
         }
 
         // 1
-
         if (numeros[0] <= numeros[1] && numeros[0] <= numeros[2]) {
             System.out.print(numeros[0] + " ");
             if (numeros[1] <= numeros[2]) {
@@ -23,7 +21,7 @@ public class Atv35 {
             } else {
                 System.out.print(numeros[2] + " " + numeros[1]);
             }
-
+            // 2
         } else if (numeros[1] <= numeros[0] && numeros[1] <= numeros[2]) {
             System.out.print(numeros[1] + " ");
             if (numeros[0] <= numeros[2]) {
@@ -32,6 +30,7 @@ public class Atv35 {
                 System.out.print(numeros[2] + " " + numeros[0]);
 
             }
+            //3
         } else {
             System.out.print(numeros[2]);
             if (numeros[0] <= numeros[1]) {
