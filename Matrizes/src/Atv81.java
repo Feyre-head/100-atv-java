@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class atv81 {
+public class Atv81 {
     public static void main(String[] args) {
         //preencha uma matriz 3x3 com valores informados pelo usuario
         //exibir a soma dos valores na diagonal
@@ -45,7 +45,7 @@ public class atv81 {
 
         //Calculando a soma de primeira coluna
         int somaColuna = 0;
-        for (int c = 0; c<3 ; c++){
+        for (int c = 0; c < 3; c++) {
             somaColuna = somaColuna + matriz[c][c];
         }
 
